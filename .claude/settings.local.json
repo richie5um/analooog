@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:apps.garmin.com)",
+      "WebSearch",
+      "WebFetch(domain:developer.garmin.com)",
+      "WebFetch(domain:aviitala.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:www.ottorinobruni.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:take4-blue.com)",
+      "WebFetch(domain:forums.garmin.com)",
+      "Bash(uuidgen:*)",
+      "Bash(python3:*)",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog add manifest.xml source/AnalooogView.mc .claude/settings.local.json store_cover.png watch.jpeg watch.png)",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog commit -m \"$\\(cat <<''EOF''\nUpdate watchface: remove icons/numbers, fix layout, add store assets\n\n- Remove status icons row \\(alarm, bluetooth, DND, notifications\\)\n- Remove minute numbers from dial, keep tick marks only\n- Move battery/steps fields inward and reduce label font size\n- Update manifest with unique UUID for store publishing\n- Add store cover image and watch screenshots\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog status)",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog add README.md)",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog commit -m \"$\\(cat <<''EOF''\nAdd README with build and deploy instructions\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog add README.md .claude/settings.local.json watch.jpeg watch.png)",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog commit -m \"$\\(cat <<''EOF''\nAdd CLI simulator instructions to README, update screenshots\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog push)"
+    ]
+  }
+}

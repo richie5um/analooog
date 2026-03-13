@@ -1,0 +1,11 @@
+bin/
+build/
+gen/
+mir/
+internal-mir/
+*.prg
+*.iq
+*.debug.xml
+developer_key
+developer_key.der
+developer_key.pem
