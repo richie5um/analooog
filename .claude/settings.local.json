@@ -19,7 +19,10 @@
       "Bash(git -C /Users/richs/Code/playground/claude/analooog commit -m \"$\\(cat <<''EOF''\nAdd README with build and deploy instructions\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git -C /Users/richs/Code/playground/claude/analooog add README.md .claude/settings.local.json watch.jpeg watch.png)",
       "Bash(git -C /Users/richs/Code/playground/claude/analooog commit -m \"$\\(cat <<''EOF''\nAdd CLI simulator instructions to README, update screenshots\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git -C /Users/richs/Code/playground/claude/analooog push)"
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog push)",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog log --oneline)",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog log -1 --format=\"%B\")",
+      "Bash(git -C /Users/richs/Code/playground/claude/analooog push --force)"
     ]
   }
 }
